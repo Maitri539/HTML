@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Homepage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+     .navbar {
+      margin-bottom: 0;
+      margin-left: 80px;
+    }
+    .row.content {height: 159px}
+    .sidenav {
+      padding-top: 30px;
+      background-color:rosybrown;
+      height: 100%;
+    }
+    footer {
+      background-color:indigo;
+      color:lightblue;
+      padding: 15px;
+    }
+    @media screen and (max-width: 200px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+  <div cl mass="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse"  id="myNavbar" style="background-color:burlywood " > 
+      <ul class="nav navbar-nav" style="color:black;">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-1  sidenav">
+      <p><a href="#">SCHOOL</a></p>
+      <p><a href="#">COLLAGE</a></p>
+      <p><a href="#">JOB</a></p>
+    </div>
+    <div class="col-sm-8 text-left" style="color:mediumvioletred ; background-color: palevioletred;"> 
+      <h1>WELCOME TO MY PAGE</h1>
+      <p> HI! I'M MAITRI. <br>
+        I'M BCA 1 <sup>st</sup> YEAR STUDENT. <br>
+      SILVER OAK UNIVERSITY.<br>
+      2104030100539.   
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
